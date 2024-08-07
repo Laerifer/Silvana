@@ -11,7 +11,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expone el puerto en el que tu servidor escucha
-EXPOSE 8080
+EXPOSE 8000
 
 # Ejecuta el archivo server.py
-CMD ["python3", "server.py"]
+CMD ["python3", "app.py"]
