@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+  function redirigirSinMensaje() {
+      // Redirigir después de 3 segundos
+      setTimeout(function() {
+          window.location.href = "./regalos/index.html"; // Reemplaza con la URL de destino
+      }, 10000);
+  }
+
+  // Llamar a la función cuando la página cargue
+  window.onload = redirigirSinMensaje;
+</script>
+<h1>
+   
+    Pide Un Deseo...<br/>... Y apaga la vela
+  </h1>
+  <div id="glow" class="glow"></div>
+  <div id="candle">
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div id="top">
+      <div class="smoke"></div>
+      <div class="smoke"></div>
+      <div class="smoke"></div>
+      <div id="knot"></div>
+      <div id="flame" class="burn"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>

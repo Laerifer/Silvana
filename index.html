@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        function mostrarVentanaEmergente() {
+            setTimeout(function() {
+                var resultado = confirm("¡Espera cumpleañera, hay más! ¿Estás lista para continuar?");
+                if (resultado) {
+                    window.location.href = "./regalo/index.html";
+                }
+            }, 20000);
+        }
+        window.onload = mostrarVentanaEmergente;
+    </script>
+    <audio autoplay>
+        <source src="y2mate.com - Cumpleaños Feliz Happy Birthday To You Original Version_256kbps.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <link href='https://fonts.googleapis.com/css?family=Andrea:100,300' rel='stylesheet' type='text/css'>
+    <div class="cover super-centered-container">
+        <canvas id="can">Get a browser</canvas>
+        <div class="overlay-static">
+            <div class="inline-blocks">
+                <h2 class="twenty-one block">Silvana</h2>
+                <img class="image block" src="IMAGE_URL" alt="Image">
+                <h1 class="bday">Feliz Cumpleaños <a href="https://www.whatsapp.com/Andrea">Para Tí *-*</a></h1>
+                <h1 class="bday">Que disfrutes de tu día con tus seres queridos ヽ(•‿•)ノ</h1>
+                <h1 class="bday">Que vivan esos 17 años (*◕‿◕*)</h1>
+                <h1 class="bday">Espero que te haya gustado el diseño jejeje, pero espera!❣◕ ‿ ◕❣</h1>
+                <div class="pop">
+                    <span>✖</span>
+                    <img border="0" style="width: 100%;" src="https://s5.postimg.org/imdjvuv1z/Feliz_cumplea_os_para_Andrea_M.jpg" alt="Birthday Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
